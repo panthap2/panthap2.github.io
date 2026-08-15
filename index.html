@@ -2,201 +2,222 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sheena Panthaplackel — Research Scientist at Google DeepMind" />
+    <title>Sheena Panthaplackel</title>
+    <meta name="theme-color" content="#0b0b14" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,450;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <title>Sheena Panthaplackel</title>
-<!--
-Reflux Template
-https://templatemo.com/tm-531-reflux
--->
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/site.css" />
   </head>
 
   <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+    <header class="site-header">
+      <div class="container">
+        <div class="profile">
+          <img
+            class="profile-photo"
+            src="assets/images/author-image.jpg"
+            alt="Sheena Panthaplackel"
+          />
+          <div class="profile-info">
+            <p class="profile-eyebrow">Hi, I'm</p>
+            <h1>Sheena Panthaplackel</h1>
+            <p class="profile-role">Research Scientist, Google DeepMind</p>
+            <p class="profile-email">sheenapantha [at] gmail [dot] com</p>
+            <div class="profile-links">
+              <a href="https://scholar.google.com/citations?user=bxAIuu4AAAAJ&hl=en">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/sheena-panthaplackel-20a097b0/">LinkedIn</a>
+              <a href="sheena_panthaplackel_CV.pdf">CV</a>
             </div>
-            <div class="author-content">
-              <h4>Sheena Panthaplackel</h4>
-              <span>spantha@utexas.edu</span>
-            </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">Publications</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="copyright-text">
-            <p style="color:#fff">Design from <a href="https://templatemo.com/">TemplateMO</a></p>
           </div>
         </div>
       </div>
+    </header>
 
-      <section class="section about-me" data-section="section1">
-        <div class="container">
-          <div class="section-heading">
-            <h2>About Me</h2>
-            <div class="line-dec"></div>
-            <p>I am a research scientist at Google DeepMind, working on Gemini Code. I completed my PhD in Computer Science at The University of Texas at Austin in 2022.
-              I was advised by <a href="https://www.cs.utexas.edu/~mooney/">Prof. Raymond Mooney</a> and <a href="https://jessyli.com/">Prof. Junyi Jessy Li</a>. 
-              My research lies at the intersection of Machine Learning, Natural Language Processing, and Software Engineering.
-              I am a recipient of the <a href="https://www.techatbloomberg.com/blog/announcing-the-bloomberg-data-science-ph-d-fellowship-winners-for-2020-2021/">2020-2021 Bloomberg Data Science Ph.D. Fellowship</a>.
-              I completed my B.S. in Computer Science at the University of Illinois at Urbana-Champaign in 2016. My CV can be found
-              <a href="sheena_panthaplackel_CV.pdf">here</a>.</p>
-          </div>
+    <nav class="site-nav" aria-label="Main">
+      <div class="container">
+        <div class="site-nav-inner">
+          <a href="#about" class="active">About</a>
+          <a href="#publications">Publications</a>
         </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section id="about">
+        <h2>About Me</h2>
+        <p class="about-text">
+          I am currently a research scientist at Google DeepMind, working on Gemini post-training for agentic coding.
+          Previously, I completed my PhD in Computer Science at The University of Texas at Austin in 2022.
+          I was advised by <a href="https://www.cs.utexas.edu/~mooney/">Prof. Raymond Mooney</a> and <a href="https://jessyli.com/">Prof. Junyi Jessy Li</a>.
+          My thesis work focused on building AI models for streamlining software engineering.
+          I was a recipient of the <a href="https://www.techatbloomberg.com/blog/announcing-the-bloomberg-data-science-ph-d-fellowship-winners-for-2020-2021/">2020-2021 Bloomberg Data Science Ph.D. Fellowship</a>.
+          Before that, I completed my B.S. in Computer Science at the University of Illinois at Urbana-Champaign in 2016.
+        </p>
       </section>
 
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Publications</h2>
-            <div class="line-dec"></div>
-            <p>
+      <section id="publications">
+        <h2>Publications</h2>
+        <div class="publications">
+
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://arxiv.org/pdf/2402.08699">Unsupervised Evaluation of Code LLMs with Round-Trip Correctness</a>
-              <br>Miltiadis Allamanis, <strong>Sheena Panthaplackel</strong>, Pengcheng Yin
-              <br>International Conference on Machine Learning (ICML), 2024</p>
-            <p>
+            </h3>
+            <p class="pub-authors">Miltiadis Allamanis, <strong>Sheena Panthaplackel</strong>, Pengcheng Yin</p>
+            <p class="pub-venue">International Conference on Machine Learning (ICML), 2024</p>
+          </article>
+
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://arxiv.org/ftp/arxiv/papers/2211/2211.06335.pdf">Using Developer Discussions to Guide Fixing Bugs in Software</a>
-              <br>[<a href="https://github.com/panthap2/developer-discussions-for-bug-fixing">Data</a>, <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.emnlp22.slides.pdf">Slides</a>]
-              <br><strong>Sheena Panthaplackel</strong>, Milos Gligoric, Junyi Jessy Li, and Raymond J. Mooney
-              <br>Findings of Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022</p>
-            
-            <p>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Milos Gligoric, Junyi Jessy Li, and Raymond J. Mooney</p>
+            <p class="pub-venue">Findings of Conference on Empirical Methods in Natural Language Processing (EMNLP), 2022</p>
+            <div class="pub-links">
+              <a href="https://github.com/panthap2/developer-discussions-for-bug-fixing">Data</a>
+              <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.emnlp22.slides.pdf">Slides</a>
+            </div>
+          </article>
+
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://www.cs.utexas.edu/users/ml/papers/panthaplackel.phdthesis22.pdf">Facilitating Software Evolution through Natural Language Comments and Dialogue</a>
-              <br>[<a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.phdthesis22.slides.pdf">Slides</a>]
-              <br><strong>Sheena Panthaplackel</strong>
-              <br>PhD Thesis, 2022</p>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong></p>
+            <p class="pub-venue">PhD Thesis, 2022</p>
+            <div class="pub-links">
+              <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.phdthesis22.slides.pdf">Slides</a>
+            </div>
+          </article>
 
-            <p>
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://arxiv.org/pdf/2208.05446.pdf">CoditT5: Pretraining for Source Code and Natural Language Editing</a>
-              <br>Jiyang Zhang, <strong>Sheena Panthaplackel</strong>, Pengyu Nie, Junyi Jessy Li, and Milos Gligoric
-              <br>International Conference on Automated Software Engineering (ASE), 2022</p>
+            </h3>
+            <p class="pub-authors">Jiyang Zhang, <strong>Sheena Panthaplackel</strong>, Pengyu Nie, Junyi Jessy Li, and Milos Gligoric</p>
+            <p class="pub-venue">International Conference on Automated Software Engineering (ASE), 2022</p>
+          </article>
 
-              <p>
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://aclanthology.org/2022.acl-long.446.pdf">Updated Headline Generation: Creating Updated Summaries for Evolving News Stories</a>
-              <br>[<a href="https://github.com/panthap2/updated-headline-generation">Data</a>, <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.acl22updated.pdf">Slides</a>, <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.acl22updated.pdf">Poster</a>]
-              <br><strong>Sheena Panthaplackel</strong>, Adrian Benton, and Mark Dredze
-              <br>Association for Computational Linguistics (ACL), 2022</p>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Adrian Benton, and Mark Dredze</p>
+            <p class="pub-venue">Association for Computational Linguistics (ACL), 2022</p>
+            <div class="pub-links">
+              <a href="https://github.com/panthap2/updated-headline-generation">Data</a>
+              <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.acl22updated.pdf">Slides</a>
+              <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.acl22updated.pdf">Poster</a>
+            </div>
+          </article>
 
-              <p>
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://aclanthology.org/2022.findings-acl.231.pdf">Learning to Describe Solutions for Bug Reports Based on Developer Discussions</a>
-              <br>[<a href="https://github.com/panthap2/describing-bug-report-solutions">Code/Data</a>, <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.acl22.pdf">Slides</a>, <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.acl22.pdf">Poster</a>]
-              <br><strong>Sheena Panthaplackel</strong>, Junyi Jessy Li, Milos Gligoric, and Raymond J. Mooney
-              <br>Findings of Association for Computational Linguistics (ACL), 2022</p>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Junyi Jessy Li, Milos Gligoric, and Raymond J. Mooney</p>
+            <p class="pub-venue">Findings of Association for Computational Linguistics (ACL), 2022</p>
+            <div class="pub-links">
+              <a href="https://github.com/panthap2/describing-bug-report-solutions">Code/Data</a>
+              <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.acl22.pdf">Slides</a>
+              <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.acl22.pdf">Poster</a>
+            </div>
+          </article>
 
-              <p>
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://arxiv.org/pdf/2010.01625.pdf">Deep Just-In-Time Inconsistency Detection Between Comments and Source Code</a>
-              <br>[<a href="https://github.com/panthap2/deep-jit-inconsistency-detection">Code/Data</a>, <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.aaai21.slides.pdf">Slides</a>, <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.aaai21.poster.pdf">Poster</a>]
-              <br><strong>Sheena Panthaplackel</strong>, Junyi Jessy Li, Milos Gligoric, and Raymond J. Mooney
-              <br>The AAAI Conference on Artificial Intelligence (AAAI), 2021</p>
-    
-              <p>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Junyi Jessy Li, Milos Gligoric, and Raymond J. Mooney</p>
+            <p class="pub-venue">The AAAI Conference on Artificial Intelligence (AAAI), 2021</p>
+            <div class="pub-links">
+              <a href="https://github.com/panthap2/deep-jit-inconsistency-detection">Code/Data</a>
+              <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.aaai21.slides.pdf">Slides</a>
+              <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.aaai21.poster.pdf">Poster</a>
+            </div>
+          </article>
+
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://arxiv.org/pdf/2006.04771.pdf">Copy That! Editing Sequences by Copying Spans</a>
-              <br><strong>Sheena Panthaplackel</strong>, Miltiadis Allamanis, and Marc Brockschmidt
-              <br>The AAAI Conference on Artificial Intelligence (AAAI), 2021</p>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Miltiadis Allamanis, and Marc Brockschmidt</p>
+            <p class="pub-venue">The AAAI Conference on Artificial Intelligence (AAAI), 2021</p>
+          </article>
 
-              <p>
+          <article class="pub-card">
+            <h3 class="pub-title">
               <a href="https://openreview.net/pdf?id=WHjjpMNZFoD">Leveraging Class Hierarchy for Code Comprehension</a>
-              <br>Jiyang Zhang, <strong>Sheena Panthaplackel</strong>, Pengyu Nie, Junyi Jessy Li, and Raymond J. Mooney, Milos Gligoric
-              <br>NeurIPS Workshop on Computer-Assisted Programming, 2020</p>
-              
-              <p><a href="https://www.aclweb.org/anthology/2020.acl-main.168.pdf">Learning to Update Natural Language Comments Based on Code Changes</a>
-              <br>[<a href="https://github.com/panthap2/LearningToUpdateNLComments">Code/Data</a>, <a href="https://slideslive.com/38929204/learning-to-update-natural-language-comments-based-on-code-changes">Video</a>]
-              <br><strong>Sheena Panthaplackel</strong>, Pengyu Nie, Milos Gligoric, Junyi Jessy Li, and Raymond J. Mooney
-              <br>Association for Computational Linguistics (ACL), 2020</p>
+            </h3>
+            <p class="pub-authors">Jiyang Zhang, <strong>Sheena Panthaplackel</strong>, Pengyu Nie, Junyi Jessy Li, and Raymond J. Mooney, Milos Gligoric</p>
+            <p class="pub-venue">NeurIPS Workshop on Computer-Assisted Programming, 2020</p>
+          </article>
 
-              <p><a href="https://aaai.org/ojs/index.php/AAAI/article/view/6382">Associating Natural Language Comment and Source Code Entities</a>
-              <br>[<a href="https://arxiv.org/ftp/arxiv/papers/1912/1912.06728.pdf">arXiv</a>, <a href="https://github.com/panthap2/AssociatingNLCommentCodeEntities">Code/Data</a>, <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.aaai20.slides.pdf">Slides</a>, <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.aaai20.poster.pdf">Poster</a>]
-              <br><strong>Sheena Panthaplackel</strong>, Milos Gligoric, Raymond J. Mooney, and Junyi Jessy Li
-              <br>The AAAI Conference on Artificial Intelligence (AAAI), 2020</p>
-          </div>
+          <article class="pub-card">
+            <h3 class="pub-title">
+              <a href="https://www.aclweb.org/anthology/2020.acl-main.168.pdf">Learning to Update Natural Language Comments Based on Code Changes</a>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Pengyu Nie, Milos Gligoric, Junyi Jessy Li, and Raymond J. Mooney</p>
+            <p class="pub-venue">Association for Computational Linguistics (ACL), 2020</p>
+            <div class="pub-links">
+              <a href="https://github.com/panthap2/LearningToUpdateNLComments">Code/Data</a>
+              <a href="https://slideslive.com/38929204/learning-to-update-natural-language-comments-based-on-code-changes">Video</a>
+            </div>
+          </article>
+
+          <article class="pub-card">
+            <h3 class="pub-title">
+              <a href="https://aaai.org/ojs/index.php/AAAI/article/view/6382">Associating Natural Language Comment and Source Code Entities</a>
+            </h3>
+            <p class="pub-authors"><strong>Sheena Panthaplackel</strong>, Milos Gligoric, Raymond J. Mooney, and Junyi Jessy Li</p>
+            <p class="pub-venue">The AAAI Conference on Artificial Intelligence (AAAI), 2020</p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/1912.06728">arXiv</a>
+              <a href="https://github.com/panthap2/AssociatingNLCommentCodeEntities">Code/Data</a>
+              <a href="https://www.cs.utexas.edu/users/ml/slides/panthaplackel.aaai20.slides.pdf">Slides</a>
+              <a href="https://www.cs.utexas.edu/users/ml/posters/panthaplackel.aaai20.poster.pdf">Poster</a>
+            </div>
+          </article>
+
         </div>
       </section>
-    </div>
+    </main>
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
     <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
+      const navLinks = document.querySelectorAll(".site-nav a");
+      const sections = document.querySelectorAll("section[id]");
 
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
-
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = document.querySelector(link.getAttribute("href"));
+          target.scrollIntoView({ behavior: "smooth" });
         });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
       });
 
-      $(window).scroll(function() {
-        checkSection();
-      });
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              navLinks.forEach((link) => {
+                link.classList.toggle(
+                  "active",
+                  link.getAttribute("href") === "#" + entry.target.id
+                );
+              });
+            }
+          });
+        },
+        { rootMargin: "-40% 0px -55% 0px" }
+      );
+
+      sections.forEach((section) => observer.observe(section));
     </script>
   </body>
 </html>
